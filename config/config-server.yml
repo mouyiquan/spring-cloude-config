@@ -5,10 +5,11 @@ spring:
     user:
       name: root
       password: 123456
-    eureka-port:  7701
+    eureka-port: 7701
+    test: 12345
 eureka:
   client:
     serviceUrl:
       defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhost:${spring.security.eureka-port}/eureka/
 
-testGitConfig: "测试Git配置"
+testGitConfig: 测试Git配置
