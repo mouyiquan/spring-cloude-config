@@ -1,0 +1,6 @@
+spring:
+    testNumber: 12345
+    testString: testtestStringC
+    testChinese1: 测试不带引号的汉字
+    testChinese2: "测试带引号的汉字"
+testGitConfig: 测试Git配置
