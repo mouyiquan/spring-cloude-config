@@ -1,15 +1,6 @@
 spring:
-  security:
-    basic:
-      enabled: true
-    user:
-      name: root
-      password: 123456
-    eureka-port: 7701
-    test: 12345
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://${spring.security.user.name}:${spring.security.user.password}@localhost:${spring.security.eureka-port}/eureka/
-
+    testNumber: 12345
+    testString: testtestStringC
+    testChinese1: 测试不带引号的汉字
+    testChinese2: "测试带引号的汉字"
 testGitConfig: 测试Git配置
